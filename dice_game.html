@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: aquamarine;
+        }
+        h1{
+            text-align: center;
+            font-size: 70px;
+            font-family: monospace;
+        }
+        h2{
+            text-align: center;
+            font-size: 50px;
+            font-style: italic;
+        }
+        p{
+            font-size: 35px;
+
+        }
+        .dice1 {
+            float: left;
+            text-align: center;
+            font-weight: bold;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* justify-items: center; */
+            margin-left:150px ;
+        }
+        .dice2 {
+            text-align: center;
+            font-weight: bold;
+            float: right;
+            margin-right: 100px;
+        }
+        /* .btndiv{
+            content: "";
+            clear: both;
+            display: table;
+            margin-top: 100px;
+        } */
+
+        .btndiv{
+            text-align: center;
+
+        }
+        button{
+            background-color: black;
+            padding: 10px;
+            border: none;
+            color: aliceblue;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Game</h1>
+        
+        <h2>Play to win</h2>
+    </div>
+
+    <div class="btndiv">
+        <button class="btn" onclick="whoWin()">Click Me</button>
+        <!-- <button onclick="whoWin()">Click me</button> -->
+    </div>
+
+    <div class="dice1">
+        <p>player 1</p>
+        <img class="img1" src="./images/dice1.png" alt="diceimg">
+    
+    </div>
+    <div class="dice2">
+        <p>player 2</p>
+        <img class="img1" src="./images/dice1.png" alt="diceimg">
+    </div>
+
+
+   
+
+    <script src="./dice_game.js"></script>
+</body>
+</html>
